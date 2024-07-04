@@ -1,0 +1,48 @@
+/* Import Libre Franklin font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #fef5df; /* Taupe color */
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    text-align: center;
+    padding: 9px 0 0px;
+    background-color: ; /* White background for header */
+    font-size: 15pt; /* 30pt font size */
+    font-weight: 900; /* Bold font */
+    color: #000; /* Black font color */
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px; /* Adjust margin between header and boxes */
+    margin-left: 90px; /* Fixed margin on the left side */
+    margin-right: 90px; /* Fixed margin on the right side */
+}
+
+.large-box {
+    flex: 1 1 50%; /* Flex-grow, flex-shrink, and initial flex-basis */
+    height: 500px; /* Height of the large box */
+    background-color: #ad8a32;
+    font-size: 12pt; /* 30pt font size */
+}
+
+.small-box {
+    flex: 1 1 40%; /* Flex-grow, flex-shrink, and initial flex-basis */
+    height: 500px; /* Height of the small box */
+}
+
+.scrolling-box {
+    margin: 10px; /* Adjust margin around each box */
+    padding: 15px; /* Adjust padding inside each box */
+    background-color: #ffffff; /* White background for scrolling boxes */
+    border: 1px solid #ccc; /* Light gray border */
+    overflow-y: auto; /* Enable vertical scrollbar if needed */
+}
